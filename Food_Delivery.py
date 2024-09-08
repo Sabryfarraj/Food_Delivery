@@ -162,7 +162,7 @@ def main():
             distance_km, Hour_Placed, Weatherconditions, Road_traffic_density, Type_of_vehicle,
             Festival, City
         )
-        st.text(f"The Estimated Time of Arrival is:\n {round(result , 2)} minutes")
+        st.text(f"The Estimated Time of Arrival is:\n {round(result , 1)} minutes")
 
 # Run the Streamlit app
 main()
